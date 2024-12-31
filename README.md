@@ -2,8 +2,11 @@
 
 # BUILDING
 mkdir build
+
 cd build
-cmake .. =DBUILD_SHARED_LIBS=[ON|OFF] 
+
+cmake .. =DBUILD_SHARED_LIBS=[ON|OFF]
+
 cmake --build . --config [Release|Debug]
 
 # RUN
